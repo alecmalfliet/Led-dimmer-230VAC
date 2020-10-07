@@ -46,7 +46,7 @@ void receiveEvent(int howMany)
     char c = Wire.read(); // receive byte as a character
     Serial.println(c);         // print the character
   }
-    
+
   int x = Wire.read();    // receive byte as an integer
   Serial.println(x);         // print the integer
   setvalue = x;
