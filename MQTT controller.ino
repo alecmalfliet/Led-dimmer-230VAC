@@ -5,10 +5,10 @@
 #define CLIENT_ID       "UnoMQTT"
 #define INTERVAL        3000 // 3 sec delay between publishing
 
-const char* mqtt_server = "192.168.0.193";
+const char* mqtt_server = "192.168.0.XXX";
 const char* mqtt_topic = "Maker";
-const char* mqtt_username = "home";
-const char* mqtt_password = "199";
+const char* mqtt_username = "username";
+const char* mqtt_password = "password";
 
 
 uint8_t mac[6] = {0x00,0x01,0x02,0x03,0x04,0x05};
